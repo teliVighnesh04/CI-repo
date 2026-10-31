@@ -162,7 +162,7 @@ jobs:
       - name: Checkout CD repo
         uses: actions/checkout@v4
         with:
-          repository: teliVighnesh04/3-Tier-GitOps-CD
+          repository: teliVighnesh04/CD-repo
           ref: main
           token: ${{ secrets.CD_REPO_TOKEN }}
           path: cd
